@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import '../style/Header.css';
 
+import { Link } from "react-router-dom";
+
 export default class Header extends Component {
   render() {
     return (
       <div>
         <nav>
           <span className="option">
-            <a href="#">&#8249;</a>
-            <a href="#">&#8250;</a>
+            <a href="https://www.behance.net/">&#8249;</a>
+            <a href="https://www.behance.net/">&#8250;</a>
           </span>
           <span className="logo">
             <div className="logo-background">
@@ -16,22 +18,18 @@ export default class Header extends Component {
             </div>
           </span>
           <span className="link">
-            <a href="#">
+            <Link to="/projects/">
               <div className="background"></div>
               <p>Projects</p>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/collections/">
               <div className="background"></div>
               <p>Collections</p>
-            </a>
-            <a href="#">
+              </Link>
+            <Link to="/users/">
               <div className="background"></div>
               <p>Users</p>
-            </a>
-            <a href="#">
-              <div className="background"></div>
-              <p>Learn</p>
-            </a>
+            </Link>
           </span>
         </nav>
       </div>

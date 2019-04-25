@@ -132,8 +132,10 @@ span.option > a {
   text-transform: uppercase;
   font-size: 1.2rem;
   line-height: 1.2rem;
+  transition: all 0.5s;
 }
 
-.link > a > p:hover {
+.link > a:hover > p {
   color: white;
+  text-shadow: 0 0 10px #fefcc9, 5px -5px 10px #fefcc9
 }
