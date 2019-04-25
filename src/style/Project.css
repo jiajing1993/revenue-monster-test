@@ -1,0 +1,29 @@
+.project {
+  color: white;
+  min-height: 100vh;
+  padding: 5% 10%;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/2800/642a5523786915.5643c23233522.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-areas:
+    'personal project project'
+}
+
+
+
+.personal {
+  border: 1px solid black;
+  grid-area: personal;
+  
+}
+
+.personal > .info {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.project {
+  border: 1px solid white;
+  grid-area: project;
+}
