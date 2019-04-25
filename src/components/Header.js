@@ -12,7 +12,7 @@ export default class Header extends Component {
           </span>
           <span className="logo">
             <div className="logo-background">
-              <p>Behance API</p>
+              <p>Behanapi</p>
             </div>
           </span>
           <span className="link">

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
 body, html {
   height: 100%;
   width: 100%;
+  font-family: 'Cute Font', cursive; 
+  font-size: 20px; 
 }
 
 .App {
@@ -92,7 +96,7 @@ body, html {
 
 .sidebar-container p.name {
   color: white;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -102,13 +106,13 @@ body, html {
 
 .sidebar-container .description > p.header {
   margin: 0px;
-  font-size: 12px;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .sidebar-container .description > p.content {
   margin: 0px;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
 }
@@ -128,7 +132,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
 }
 
