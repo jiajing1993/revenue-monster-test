@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import jsonp from 'jsonp';
+import Header from './components/Header'
 
 import './App.css';
 
@@ -34,6 +35,7 @@ class App extends Component {
     const owner = this.state.selectedCard ? this.state.selectedCard.owners[0] : ""
     return (
       <div className="App">
+        <Header />
         <div className="sidebar">
           {
             this.state.selectedCard && (
