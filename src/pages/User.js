@@ -4,24 +4,34 @@ import jsonp from 'jsonp';
 import '../style/Project.scss'
 
 import HeadAndAns from '../components/HeadAndAns'
-import SocialIcon from '../components/socialcon'
+import SocialIcon from '../components/Socialcon'
+import UserProject from '../components/UserProject'
+
+const API_KEY = "yOEjVeOZZg7Wi9bkoW5t37K9GpaAdRnV"
 
 export default class User extends Component {
   constructor(props){
     super(props)
     this.state = {
-      user: ""
+      user: "",
+      backgroundImage: "https://dmarket.com/blog/best-dota2-wallpapers/necr2_hu0883fe7709ec3660ed4d007aee51dffb_264928_1920x1080_resize_q75_box.jpg",
     }
   }
 
   componentDidMount(){
     const { match: { params } } = this.props;
-    jsonp(`https://www.behance.net/v2/users/${params.id}?client_id=LDGQKFP7dsmkhIKUAGG67ChSDASj1cWD` ,null,
+    jsonp(`https://www.behance.net/v2/users/${params.id}?client_id=${API_KEY}` ,null,
     (err, data) => {
-      console.log(data)
       this.setState({
         user: data.user
       })
+    })
+  }
+
+  updateBackgroundImg = (image) => {
+    console.log(image)
+    this.setState({
+      backgroundImage: image
     })
   }
 
@@ -31,7 +41,7 @@ export default class User extends Component {
     console.log(user.images)
     if (this.state.user){
       return (
-        <div className="user-profile-page">
+        <div className="user-profile-page" style={{ backgroundImage: `url(${this.state.backgroundImage})`}}>
           <section className="personal"> 
             <div className="info">
               <div className="user">  
@@ -82,10 +92,9 @@ export default class User extends Component {
               <HeadAndAns head="Company" ans={user.company || "-"} />
               <HeadAndAns head="About" ans={user.sections["Where, When and What"]} />
             </div>
-            
           </section>
           <section className="projects">
-            
+            <UserProject id={user.id} handleBackgroundImage={this.updateBackgroundImg}/>
           </section>
         </div>
       )

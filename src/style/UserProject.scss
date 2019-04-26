@@ -1,0 +1,57 @@
+.feature-projects-list {
+  text-align: center;
+  width: 100%;
+}
+.feature-project {
+  display: block;
+  position: relative;
+  
+  img {
+    height: 500px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 18px 32px rgba(0, 0, 0, 0.7);
+    transform-style: preserve-3d;
+    animation: spin 3s linear infinite;
+  }
+  .project-details {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1rem;
+    position: absolute;
+    left: 10px;
+    bottom: 40%;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+    width: 50%;
+    text-align: left;
+  }
+}
+
+.normal-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 300px;
+  margin-top: -280px;
+}
+.normal-project {
+  img {
+    height: 60px;
+    width: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    box-shadow: 0px 18px 32px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@keyframes spin { 
+  0% { 
+    transform: rotateY(-25deg) translateY(0px);
+  }
+  50% { 
+    transform: rotateY(0deg) translateY(15px);
+  }
+  100% { 
+    transform: rotateY(25deg) translateY(0px);
+  }
+}
