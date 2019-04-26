@@ -26,7 +26,7 @@ export default class Header extends Component {
               <div className="background"></div>
               <p>Collections</p>
               </Link>
-            <Link to="/users/">
+            <Link to="/users/50001">
               <div className="background"></div>
               <p>Users</p>
             </Link>

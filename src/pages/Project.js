@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import jsonp from 'jsonp';
 
-import '../style/Project.css'
+import '../style/Project.scss'
+
+import HeadAndAns from '../components/HeadAndAns'
+import SocialIcon from '../components/socialcon'
 
 export default class Project extends Component {
   constructor(props){
@@ -28,25 +31,61 @@ export default class Project extends Component {
     console.log(user.images)
     if (this.state.user){
       return (
-        <div className="project">
+        <div className="user-profile-page">
           <section className="personal"> 
             <div className="info">
-              <h1>{user.username}</h1>
-              <img src={user.images['230']} alt=""/>
-            </div> 
+              <div className="user">  
+                <img src={user.images['230']} alt=""/>
+                <div className="wrapper">
+                  <p className="name">{user.username}</p>
+                  <p>{`USER ID: ${user.id}`}</p>
+                </div>
+              </div>
+              <div className="stats">
+                <span className="stat">
+                  <p>Appreciations</p>
+                  <p>{stat.appreciations}</p>
+                </span>
+                <span className="stat">
+                  <p>Following</p>
+                  <p>{stat.following}</p>
+                </span>
+                <span className="stat">
+                  <p>Followers</p>
+                  <p>{stat.followers}</p>
+                </span>
+                <div className="feature">
+                  { user.features.map((feature) => {
+                    return (
+                      <img src={feature.site.ribbon.image_2x} alt=""/>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+            <div className="profile-section">
+              <div className="social-section">
+                { user.social_links.map((social, index) => {
+                  return (
+                      <a href={social.url} key={social.id}> 
+                            <SocialIcon name={social.service_name} />
+                            <span>{social.value}</span>
+                      </a>
+                  )
+                })}
+              </div>
+            </div>
+            <div className="details">
+              <HeadAndAns head="Occupation" ans={user.occupation || "-"} />
+              <HeadAndAns head="Location" ans={user.location || "-"} />
+              <HeadAndAns head="Fields" ans={user.fields || "-"} />
+              <HeadAndAns head="Company" ans={user.company || "-"} />
+              <HeadAndAns head="About" ans={user.sections["Where, When and What"]} />
+            </div>
             
-            <p>{user.occupation}</p>
-            <p>{user.location}</p>
-            <p>{user.fields}</p>
-            <p>{stat.followers}</p>
-            <p>{stat.following}</p>
-            <p>{stat.appreciations}</p>
-            <p>{stat.views}</p>
-            <p>{stat.comments}</p>
           </section>
-          <section className="project">
-            <p>{stat.views}</p>
-            <p>{stat.comments}</p>
+          <section className="projects">
+            
           </section>
         </div>
       )

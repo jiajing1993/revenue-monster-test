@@ -16,8 +16,8 @@ class App extends Component {
         <Router>
           <Header />
           <Route path="/collections" exact component={CollectionPage} />
-          <Route path="/project/:id" exact component={ProjectPage} />
-          <Route path="/users" exact component={UserPage} />
+          <Route path="/project/" exact component={ProjectPage} />
+          <Route path="/users/:id" exact component={ProjectPage} />
         </Router>
       </div>
     );
