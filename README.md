@@ -12,3 +12,7 @@ create-react-app
 - [ ] Redux *
 
 _* mean bonus_
+
+## ScreenShot
+![alt text](https://i.ibb.co/myJTs7P/Screenshot-2019-04-25-at-10-58-57-PM.png "Project Page")
+![alt text](https://i.ibb.co/tLXnqhY/Screenshot-2019-04-26-at-3-29-19-PM.png "User Page")
