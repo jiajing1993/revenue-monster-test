@@ -1,27 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // Pages
 import Header from './components/Header'
 import CollectionPage from './pages/Collections'
 import ProjectPage from './pages/Project'
-import UserPage from './pages/Users'
+import UserPage from './pages/User'
 
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Router>
-          <Header />
-          <Route path="/collections" exact component={CollectionPage} />
-          <Route path="/project/" exact component={ProjectPage} />
-          <Route path="/users/:id" exact component={ProjectPage} />
-        </Router>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Route path="/collections" exact component={CollectionPage} />
+        <Route path="/project/" exact component={ProjectPage} />
+        <Route path="/user/:id" exact component={UserPage} />
+      </Router>
+    </div>
+  );
 }
 
 export default App;

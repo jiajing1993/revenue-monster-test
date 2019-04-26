@@ -17,7 +17,6 @@ const ansStyle = {
   overflow: 'hidden',
   textOverflow: 'ellipsis',
   WebkitLineClamp: '3',
-  WebkitLineClamp: 'vertical'
 }
 
 const HeadAndAns = (props) => {
