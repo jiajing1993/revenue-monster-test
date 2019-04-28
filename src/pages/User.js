@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import jsonp from 'jsonp';
 
-import '../style/Project.scss'
+import '../style/User.scss'
 
 import HeadAndAns from '../components/HeadAndAns'
 import SocialIcon from '../components/Socialcon'

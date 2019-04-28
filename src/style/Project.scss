@@ -1,106 +1,108 @@
-.user-profile-page {
+.project-page {
   color: white;
-  min-height: 100vh;
   padding: 5% 10%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: 400px auto;
-}
-
-.profile-section {
-  background: rgba(0,0,0,0.9);
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.personal {
-  margin-right: 10px;
-  .info {
-    margin-bottom: 10px;
-    .user {
-      display: flex;
-      position: relative;
-      z-index: 1;
-      img {
-        width: 120px;
-        height: 120px;
-        border-radius: 5px;
-        box-shadow: 0px 4px 10px rgba(0,0,0,0.7);
-        vertical-align: top;
-        margin-right: 10px;
-      }
-      p.name {
-        font-size: 2.5rem;
-        line-height: 1.5rem;
-      }
-    }
-    
-    .stats {
-      background: rgba(0,0,0,0.9);
-      padding: 5px;
-      padding-top: 70px;
-      margin-top: -60px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      position: relative;
-      z-index: 0;
-      .feature {
-        position: absolute;
-        top: 0;
-        right: 5px;
-        img {
-          height: 50px;
-          margin-right: 5px;
-        }
-      }
-      .stat {
-        display: inline-block;
-        text-align: center;
-        padding: 10px;
-        p {
-          font-size: 1.2rem;
-          line-height: 1rem;
-          &:first-child {
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.5);
-          }
-        }
-      }
-    }
+  background-attachment: fixed;
+  padding-bottom: 0;
+  position: relative;
+  height: calc(100vh - 40px);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background: inherit; 
+    box-shadow: inset 0 0 0 300px rgba(0,0,0,0.3);
+    filter: blur(3px);
   }
-  
-}
+  .page-grip {
+    display: grid;
+    grid-template-columns: 1.5fr 10px 1fr;
+    position: relative;
+    z-index: 1;
+  }
 
-.details {
-  background: rgba(0,0,0,0.9); 
-  padding: 10px;
-}
-
-.social-section {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  a {
-    display: inline-block;
-    text-decoration: none;
+  .gallery {
+    height: 85vh;
+    overflow: scroll;
     text-align: center;
-    width: 100px;
-    svg {
-      vertical-align: middle;
-      width: 35px;
-      height: 35px;
+    padding-bottom: 10px;
+    img {
+      width: 90%;
+      border-radius:5px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+      margin-bottom: 15px;
     }
-    span {
-      font-size: 0.6rem;
-      color: #90FF8E;
-      width: 100%;
+  }
+  .info {
+    .project-name {
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 2rem;
+    }
+    .project-field {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      margin-right: 15px;
+      color: rgba(255, 255, 255, 0.5);
+      
+    }
+    .stat-list {
+      display: flex;
+      margin: 10px 0px;
+    }
+    .stat {
+      margin-right: 5px;
+      text-align: center;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding-top: 6px;
+      &.appreciation { background: #ffa502}
+      &.view { background: #ff4757}
+      &.comment { background: #5352ed}
 
+      svg{
+        height: 20px;
+        fill: white;
+        margin-bottom: 2px;
+      }
+      span {
+        font-size: 0.9rem;
+        line-height: 1px;
+        display: block;
+      }
+    }
+    .about {
+      background: rgba(0,0,0,0.7); 
+      padding: 10px;
+      margin-bottom: 10px;
     }
   }
 }
+
+.owner-list {
+  display: flex;
+  .owner {
+    width: 150px;
+    background: rgba(0,0,0,0.7);
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+    padding: 5px;
+    img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    p.owner-name {
+      text-transform: uppercase;
+    }
+  }
+}
+
+

@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Header />
         <Route path="/collections" exact component={CollectionPage} />
-        <Route path="/project/" exact component={ProjectPage} />
+        <Route path="/project/:id" exact component={ProjectPage} />
         <Route path="/user/:id" exact component={UserPage} />
       </Router>
     </div>

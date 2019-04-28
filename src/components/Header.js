@@ -17,7 +17,7 @@ const Header = () => {
           </div>
         </span>
         <span className="link">
-          <Link to="/projects/">
+          <Link to="/project/42496061">
             <div className="background"></div>
             <p>Projects</p>
           </Link>

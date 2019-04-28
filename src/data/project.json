@@ -1,0 +1,473 @@
+{
+  "project": {
+  "id": 42496061,
+  "name": "BOFFI SOHO",
+  "published_on": 1473156504,
+  "created_on": 1473156234,
+  "modified_on": 1547704410,
+  "url": "https://www.behance.net/gallery/42496061/BOFFI-SOHO",
+  "slug": "BOFFI-SOHO",
+  "privacy": "public",
+  "fields": [
+  "Architecture",
+  "Digital Art",
+  "Interior Design"
+  ],
+  "covers": {
+  "115": "https://mir-s3-cdn-cf.behance.net/projects/115/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "202": "https://mir-s3-cdn-cf.behance.net/projects/202/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "230": "https://mir-s3-cdn-cf.behance.net/projects/230/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "404": "https://mir-s3-cdn-cf.behance.net/projects/404/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "808": "https://mir-s3-cdn-cf.behance.net/projects/808/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/projects/original/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg",
+  "max_808": "https://mir-s3-cdn-cf.behance.net/projects/max_808/d57b6f42496061.Y3JvcCw5NDcsNzQxLDE0LDA.jpg"
+  },
+  "mature_content": 0,
+  "mature_access": "allowed",
+  "owners": [
+  {
+  "id": 5005015,
+  "first_name": "Tesla",
+  "last_name": "Studio",
+  "username": "teslastudio",
+  "city": "Istanbul",
+  "state": "",
+  "country": "Turkey",
+  "location": "Istanbul, Turkey",
+  "company": "Tesla Studio",
+  "occupation": "",
+  "created_on": 1391813827,
+  "url": "https://www.behance.net/teslastudio",
+  "images": {
+  "50": "https://mir-s3-cdn-cf.behance.net/user/50/bc91d75005015.57cda3bc345aa.png",
+  "100": "https://mir-s3-cdn-cf.behance.net/user/100/bc91d75005015.57cda3bc345aa.png",
+  "115": "https://mir-s3-cdn-cf.behance.net/user/115/bc91d75005015.57cda3bc345aa.png",
+  "138": "https://mir-s3-cdn-cf.behance.net/user/138/bc91d75005015.57cda3bc345aa.png",
+  "230": "https://mir-s3-cdn-cf.behance.net/user/230/bc91d75005015.57cda3bc345aa.png",
+  "276": "https://mir-s3-cdn-cf.behance.net/user/276/bc91d75005015.57cda3bc345aa.png"
+  },
+  "display_name": "Tesla Studio",
+  "fields": [
+  "Digital Art",
+  "Architecture",
+  "Interior Design"
+  ],
+  "has_default_image": 0,
+  "website": "www.teslastudio.tv",
+  "stats": {
+  "followers": 2713,
+  "following": 176,
+  "appreciations": 8816,
+  "views": 63560,
+  "comments": 5
+  }
+  },
+  {
+  "id": 3478799,
+  "first_name": "Serkan",
+  "last_name": "Çelik",
+  "username": "serkancelik",
+  "city": "Istanbul",
+  "state": "",
+  "country": "Turkey",
+  "location": "Istanbul, Turkey",
+  "company": "www.3dkampus.com",
+  "occupation": "3DKampüs Eğitmen",
+  "created_on": 1378638526,
+  "url": "https://www.behance.net/serkancelik",
+  "images": {
+  "50": "https://mir-s3-cdn-cf.behance.net/user/50/3478799.53bd2775dd7c7.jpg",
+  "100": "https://mir-s3-cdn-cf.behance.net/user/100/3478799.53bd2775dd7c7.jpg",
+  "115": "https://mir-s3-cdn-cf.behance.net/user/115/3478799.53bd2775dd7c7.jpg",
+  "138": "https://mir-s3-cdn-cf.behance.net/user/138/3478799.53bd2775dd7c7.jpg",
+  "230": "https://mir-s3-cdn-cf.behance.net/user/230/3478799.53bd2775dd7c7.jpg",
+  "276": "https://mir-s3-cdn-cf.behance.net/user/276/3478799.53bd2775dd7c7.jpg"
+  },
+  "display_name": "Serkan Çelik",
+  "fields": [
+  "Digital Art",
+  "Architecture",
+  "Interior Design"
+  ],
+  "has_default_image": 0,
+  "website": "http://www.serkancelik.com.tr",
+  "stats": {
+  "followers": 2475,
+  "following": 233,
+  "appreciations": 10873,
+  "views": 75722,
+  "comments": 33
+  }
+  }
+  ],
+  "stats": {
+  "views": 1705,
+  "appreciations": 257,
+  "comments": 6
+  },
+  "conceived_on": 1473120000,
+  "canvas_width": 1400,
+  "tags": [
+  "Boffi",
+  "soho",
+  "3D",
+  "arch",
+  "archviz",
+  "realistic"
+  ],
+  "description": "We inspired Boffi Soho gallery in this project",
+  "editor_version": 5,
+  "allow_comments": 1,
+  "modules": [
+  {
+  "id": 255911653,
+  "project_id": 42496061,
+  "type": "text",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "text": "<div>We inspired Boffi Soho gallery in this project</div>",
+  "text_plain": "We inspired Boffi Soho gallery in this project"
+  },
+  {
+  "id": 255910875,
+  "project_id": 42496061,
+  "type": "image",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/256a3042496061.57ce948b982bd.jpg",
+  "sizes": {
+  "1400": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/256a3042496061.57ce948b982bd.jpg",
+  "disp": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/256a3042496061.57ce948b982bd.jpg",
+  "max_1240": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/256a3042496061.57ce948b982bd.jpg",
+  "max_1920": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/256a3042496061.57ce948b982bd.jpg",
+  "max_1200": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/256a3042496061.57ce948b982bd.jpg",
+  "max_3840": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/256a3042496061.57ce948b982bd.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/project_modules/source/256a3042496061.57ce948b982bd.jpg"
+  },
+  "dimensions": {
+  "1400": {
+  "width": 1400,
+  "height": 865
+  },
+  "disp": {
+  "width": 600,
+  "height": 371
+  },
+  "max_1240": {
+  "width": 1240,
+  "height": 766
+  },
+  "max_1920": {
+  "width": 1920,
+  "height": 1186
+  },
+  "max_1200": {
+  "width": 1200,
+  "height": 741
+  },
+  "max_3840": {
+  "width": 2560,
+  "height": 1581
+  },
+  "original": {
+  "width": 2560,
+  "height": 1581
+  }
+  },
+  "width": 600,
+  "height": 370
+  },
+  {
+  "id": 255910883,
+  "project_id": 42496061,
+  "type": "image",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/08d65b42496061.57ce948b9878d.jpg",
+  "sizes": {
+  "1400": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/08d65b42496061.57ce948b9878d.jpg",
+  "disp": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/08d65b42496061.57ce948b9878d.jpg",
+  "max_1240": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/08d65b42496061.57ce948b9878d.jpg",
+  "max_1920": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/08d65b42496061.57ce948b9878d.jpg",
+  "max_1200": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08d65b42496061.57ce948b9878d.jpg",
+  "max_3840": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/08d65b42496061.57ce948b9878d.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/project_modules/source/08d65b42496061.57ce948b9878d.jpg"
+  },
+  "dimensions": {
+  "1400": {
+  "width": 1400,
+  "height": 870
+  },
+  "disp": {
+  "width": 600,
+  "height": 373
+  },
+  "max_1240": {
+  "width": 1240,
+  "height": 771
+  },
+  "max_1920": {
+  "width": 1920,
+  "height": 1193
+  },
+  "max_1200": {
+  "width": 1200,
+  "height": 746
+  },
+  "max_3840": {
+  "width": 1953,
+  "height": 1214
+  },
+  "original": {
+  "width": 1953,
+  "height": 1214
+  }
+  },
+  "width": 600,
+  "height": 372
+  },
+  {
+  "id": 255910885,
+  "project_id": 42496061,
+  "type": "image",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0eb57542496061.57ce948b9ee7d.jpg",
+  "sizes": {
+  "1400": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/0eb57542496061.57ce948b9ee7d.jpg",
+  "disp": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0eb57542496061.57ce948b9ee7d.jpg",
+  "max_1240": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/0eb57542496061.57ce948b9ee7d.jpg",
+  "max_1920": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/0eb57542496061.57ce948b9ee7d.jpg",
+  "max_1200": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0eb57542496061.57ce948b9ee7d.jpg",
+  "max_3840": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/0eb57542496061.57ce948b9ee7d.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/project_modules/source/0eb57542496061.57ce948b9ee7d.jpg"
+  },
+  "dimensions": {
+  "1400": {
+  "width": 1400,
+  "height": 865
+  },
+  "disp": {
+  "width": 600,
+  "height": 371
+  },
+  "max_1240": {
+  "width": 1240,
+  "height": 766
+  },
+  "max_1920": {
+  "width": 1920,
+  "height": 1186
+  },
+  "max_1200": {
+  "width": 1200,
+  "height": 741
+  },
+  "max_3840": {
+  "width": 2400,
+  "height": 1482
+  },
+  "original": {
+  "width": 2400,
+  "height": 1482
+  }
+  },
+  "width": 600,
+  "height": 370
+  },
+  {
+  "id": 255910887,
+  "project_id": 42496061,
+  "type": "image",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/5b8bf042496061.57ce948b9f429.jpg",
+  "sizes": {
+  "1400": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/5b8bf042496061.57ce948b9f429.jpg",
+  "disp": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/5b8bf042496061.57ce948b9f429.jpg",
+  "max_1240": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/5b8bf042496061.57ce948b9f429.jpg",
+  "max_1920": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/5b8bf042496061.57ce948b9f429.jpg",
+  "max_1200": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5b8bf042496061.57ce948b9f429.jpg",
+  "max_3840": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/5b8bf042496061.57ce948b9f429.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/project_modules/source/5b8bf042496061.57ce948b9f429.jpg"
+  },
+  "dimensions": {
+  "1400": {
+  "width": 1400,
+  "height": 865
+  },
+  "disp": {
+  "width": 600,
+  "height": 371
+  },
+  "max_1240": {
+  "width": 1240,
+  "height": 766
+  },
+  "max_1920": {
+  "width": 1920,
+  "height": 1187
+  },
+  "max_1200": {
+  "width": 1200,
+  "height": 742
+  },
+  "max_3840": {
+  "width": 1953,
+  "height": 1207
+  },
+  "original": {
+  "width": 1953,
+  "height": 1207
+  }
+  },
+  "width": 600,
+  "height": 370
+  },
+  {
+  "id": 255910889,
+  "project_id": 42496061,
+  "type": "image",
+  "full_bleed": 0,
+  "alignment": "center",
+  "caption_alignment": "left",
+  "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "sizes": {
+  "1400": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "disp": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "max_1240": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "max_1920": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "max_1200": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fd8b8a42496061.57ce948b9f8f2.jpg",
+  "original": "https://mir-s3-cdn-cf.behance.net/project_modules/source/fd8b8a42496061.57ce948b9f8f2.jpg"
+  },
+  "dimensions": {
+  "1400": {
+  "width": 1400,
+  "height": 788
+  },
+  "disp": {
+  "width": 600,
+  "height": 338
+  },
+  "max_1240": {
+  "width": 1240,
+  "height": 698
+  },
+  "max_1920": {
+  "width": 1920,
+  "height": 1080
+  },
+  "max_1200": {
+  "width": 1200,
+  "height": 675
+  },
+  "original": {
+  "width": 1920,
+  "height": 1080
+  }
+  },
+  "width": 600,
+  "height": 337
+  }
+  ],
+  "short_url": "http://be.net/gallery/42496061/BOFFI-SOHO",
+  "copyright": {
+  "license": "cc by-nc-nd",
+  "description": "Attribution-NonCommercial-NoDerivs",
+  "license_id": 1
+  },
+  "tools": [],
+  "styles": {
+  "text": {
+  "title": {
+  "font_family": "arial,helvetica,sans-serif",
+  "font_weight": "bold",
+  "color": "#191919",
+  "text_align": "left",
+  "line_height": "1.1em",
+  "font_size": "36px",
+  "text_decoration": "none",
+  "font_style": "normal",
+  "display": "inline",
+  "text_transform": "none"
+  },
+  "subtitle": {
+  "font_family": "arial,helvetica,sans-serif",
+  "font_weight": "normal",
+  "color": "#a4a4a4",
+  "text_align": "left",
+  "line_height": "1.4em",
+  "font_size": "20px",
+  "text_decoration": "none",
+  "font_style": "normal",
+  "display": "inline",
+  "text_transform": "none"
+  },
+  "paragraph": {
+  "font_family": "arial,helvetica,sans-serif",
+  "font_weight": "normal",
+  "color": "#696969",
+  "text_align": "left",
+  "line_height": "1.4em",
+  "font_size": "20px",
+  "text_decoration": "none",
+  "font_style": "normal",
+  "display": "inline",
+  "text_transform": "none"
+  },
+  "caption": {
+  "font_family": "arial,helvetica,sans-serif",
+  "font_weight": "normal",
+  "color": "#a4a4a4",
+  "text_align": "left",
+  "line_height": "1.4em",
+  "font_size": "14px",
+  "text_decoration": "none",
+  "font_style": "italic",
+  "display": "block",
+  "text_transform": "none"
+  },
+  "link": {
+  "font_family": "arial,helvetica,sans-serif",
+  "font_weight": "normal",
+  "color": "#1769FF",
+  "text_align": "left",
+  "line_height": "1.4em",
+  "font_size": "12px",
+  "text_decoration": "none",
+  "font_style": "normal",
+  "display": "inline",
+  "text_transform": "none"
+  }
+  },
+  "background": {
+  "color": "FFFFFF"
+  },
+  "spacing": {
+  "project": {
+  "top_margin": 50
+  },
+  "modules": {
+  "bottom_margin": 60
+  }
+  },
+  "dividers": {
+  "display": "none"
+  }
+  },
+  "colors": [
+  {
+  "r": 37,
+  "g": 32,
+  "b": 32
+  }
+  ],
+  "creator_id": 5005015
+  },
+  "http_code": 200
+  }
