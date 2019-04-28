@@ -1,6 +1,11 @@
 # Revenue Monster Front End Test
 Question: https://revenuemonster.github.io/
 
+## ScreenShot
+![alt text](https://i.ibb.co/pyFHLjV/Screenshot-2019-04-28-at-2-06-25-PM.png "Project Page")
+![alt text](https://i.ibb.co/K6xQ7hX/Screenshot-2019-04-28-at-2-06-14-PM.png "Colelction Page")
+![alt text](https://i.ibb.co/t3nT28w/Screenshot-2019-04-28-at-2-05-39-PM.png "User Page")
+
 ## Build with
 create-react-app
 
@@ -12,7 +17,3 @@ create-react-app
 - [ ] Redux *
 
 _* mean bonus_
-
-## ScreenShot
-![alt text](https://i.ibb.co/myJTs7P/Screenshot-2019-04-25-at-10-58-57-PM.png "Project Page")
-![alt text](https://i.ibb.co/tLXnqhY/Screenshot-2019-04-26-at-3-29-19-PM.png "User Page")
