@@ -19,6 +19,7 @@ export default class UserProject extends Component {
       this.setState({
         userProject: data.projects
       })
+      this.props.handleBackgroundImage(data.projects[0].covers['original'])
     })
   }
 
